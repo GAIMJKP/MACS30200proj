@@ -25,33 +25,12 @@
 \end{titlepage}
 
 \begin{spacing}{2}
-\section{Introduction}
-
-I know that I want to use Uber Movement data to analyse the social determinants of traffic flows. But my exact analysis is still unclear. So I will try to cover breadth rather than depth in this lit review. I will organize my discussion by topic.
-
-\section{Car studies}
-
-\subsection{Taxis}
 
 \autocite{turner2007axial} is an influential paper in the new space of transport network analysis. I will build upon the methodology of treating streets as a network.
 
-\autocite{liu2015revealing} sets up a methodology of analysing the structure of a city. They convert the city of Shanghai into a graph to allow for network analysis.
-
-\autocite{zheng2011urban} One of the first papers to analyse large-scale data on taxi movement: 30,000 taxicabs in Beijing. Uber Movement will allow me to scale up this analysis. 
-
-\subsection{Uber Movement}
-
-There now exists traffic data on 5 US cities. 
-
-The only paper making use of this dataset so far is \autocite{pearson11traffic}. Using R packages, they do a bunch of interesting modeling of the data. I am in touch with the authors about how to port their analysis to my favored language of Python. 
-
-Most relevant to me is the use of temporal analysis to compare traffic flows at different times. 
-
-I will build upon the work, by undertaking work suggested in 'Section 6: Future Work'. This is to use a larger temporal data set to compare flows between different dates. Specifically, if we are interested in the effect of the Christmas holiday, we could compare December 25th to January 25th. 
-
 \section{Social determinants of traffic}
 
-\autocite{10.2307/1911814} Early paper framing the social importance of traffic. Conceptualises traffic as a public bad which is overconsumed due to the negative externality imposed upon other drivers. I am inspired by this to investigate how much drivers respond to special events, and how much private individuals decrease their driving at times of high demand.
+\autocite{10.2307/1911814} . I am inspired by this to investigate how much drivers respond to special events, and how much private individuals decrease their driving at times of high demand.
 
 \autocite{10.1007/3-540-48238-5_28} The first major paper to treat drivers as social beings and investigate the social causes of traffic.
 
@@ -63,14 +42,6 @@ When there is a public transport shutdown, how many displaced passengers move on
 
 Consider \href{https://medium.com/uber-movement/examining-the-impact-of-the-london-tower-bridge-closure-5b7626e44915?lang=en-US}{this} Medium article on the London Bridge closure affecting other traffic.
 
-\subsection{Weather}
-
-Pearson et al. recommend analysis seasonal trends. This paper \autocite{KILPELAINEN2007288}  used a survey of drivers to analyze how weather and weather forecasts affect driving behavior.
-I propose to investigate the following hypothesis: average travel time is higher in winter.
-
-\subsection{Holidays/Special Events}
-
-\autocite{cools2007investigating} uses the Box-Tiao modeling approach to show that traffic counts are significantly lower during holiday periods. I hope to replicate this approach on my large-scale data.
 
 \newpage
 \printbibliography
