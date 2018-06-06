@@ -1,9 +1,9 @@
-# Working Nine to Drive : how the working day affects urban traffic
+# "Working Nine to Drive": Socioeconomic Status and Commuter Traffic
 
-## MACS30200 (Perspectives on Computational Research) Project 
+## MACS30200 (Perspectives on Computational Research) Project
 
-In this repo:
+Key items in this repository:
 
-Paper - final paper
+* Paper > paper.pdf : final term paper.
 
-Poster - poster used in presentation
+* Poster > poster.pdf - poster used in presentation
